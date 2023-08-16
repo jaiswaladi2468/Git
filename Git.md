@@ -394,7 +394,7 @@ A --- B --- C (main)
 Both `git revert` and `git reset` are powerful tools for undoing changes in a Git repository. `git revert` creates a new commit to undo changes while preserving history, while `git reset` moves the branch pointer to a different commit, affecting the branch's history. Be cautious when using `git reset`, especially the `--hard` option, as it can result in permanent data loss. Always make sure to have backups or understand the implications before using these commands.
 
 
-# Git Cherry-Pick: Explained with Examples and Diagram
+# Git Cherry-Pick: Explained with Examples
 
 `git cherry-pick` is a command used to apply a specific commit from one branch to another. It allows you to pick and apply a single commit's changes onto another branch without having to merge the entire branch.
 
