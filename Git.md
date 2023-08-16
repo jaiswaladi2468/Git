@@ -24,6 +24,7 @@ Commonly used VCS systems include:
 
 VCS is essential in collaborative software development, as it helps teams work together smoothly and efficiently while maintaining the integrity and history of the codebase.
 
+# Git Merge & Git Rebase
 
 Both `git rebase` and `git merge` are used to integrate changes from one branch into another. However, they have different approaches and use cases. Let's explore both with an example:
 
