@@ -276,7 +276,7 @@ Imagine you're working on a feature branch and need to switch to another branch 
 `git stash` and `git stash pop` are valuable commands in Git when you need to temporarily save your changes, switch branches, and then reintegrate your changes. This allows you to maintain a clean and organized development workflow while still preserving your work in progress.
 
 
-# Git Revert and Git Reset: Explained with Examples, Diagrams, and Commands
+# Git Revert and Git Reset: Explained with Examples
 
 **Git Revert:**
 `git revert` is used to create a new commit that undoes the changes introduced by a previous commit. It's a safe way to undo changes while preserving the commit history.
