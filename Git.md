@@ -869,9 +869,7 @@ Shows commits that have been cherry-picked.
 $ git log --cherry-pick master..feature_branch
 ```
 
-**48. `git log -
-
-S`**
+**48. `git log -S`**
 Searches for changes that added or removed a specific string.
 
 ```bash
