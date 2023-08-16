@@ -78,7 +78,7 @@ Git is a distributed version control system used for tracking changes in source 
     
     This command doesn't exist directly in Git. You perform this action on the platform where your remote repository is hosted.
 
-**Example Workflow:**
+# Example Workflow:
 
 Let's walk through a simple workflow involving creating a new feature branch, making changes, and merging them back into the main branch.
 
@@ -193,7 +193,7 @@ Use `git merge` when you want to maintain a clear record of branch integration a
 Note: The choice between `git merge` and `git rebase` depends on your team's workflow and the desired history structure. Always communicate with your team to decide which approach to use.
 
 
-**Git Stash and Git Pop: Explained with Examples**
+# Git Stash and Git Pop: Explained with Examples
 
 **Git Stash:**
 In Git, the `git stash` command is used to temporarily save changes that you're not ready to commit yet, so you can switch to a different branch or perform other operations without committing incomplete work.
@@ -276,7 +276,7 @@ Imagine you're working on a feature branch and need to switch to another branch 
 `git stash` and `git stash pop` are valuable commands in Git when you need to temporarily save your changes, switch branches, and then reintegrate your changes. This allows you to maintain a clean and organized development workflow while still preserving your work in progress.
 
 
-**Git Revert and Git Reset: Explained with Examples, Diagrams, and Commands**
+# Git Revert and Git Reset: Explained with Examples, Diagrams, and Commands
 
 **Git Revert:**
 `git revert` is used to create a new commit that undoes the changes introduced by a previous commit. It's a safe way to undo changes while preserving the commit history.
@@ -394,7 +394,7 @@ A --- B --- C (main)
 Both `git revert` and `git reset` are powerful tools for undoing changes in a Git repository. `git revert` creates a new commit to undo changes while preserving history, while `git reset` moves the branch pointer to a different commit, affecting the branch's history. Be cautious when using `git reset`, especially the `--hard` option, as it can result in permanent data loss. Always make sure to have backups or understand the implications before using these commands.
 
 
-**Git Cherry-Pick: Explained with Examples and Diagram**
+# Git Cherry-Pick: Explained with Examples and Diagram
 
 `git cherry-pick` is a command used to apply a specific commit from one branch to another. It allows you to pick and apply a single commit's changes onto another branch without having to merge the entire branch.
 
